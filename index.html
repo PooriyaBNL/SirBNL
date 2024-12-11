@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>پامکین تیم</h1>
+            <p>Pumkin Translator</p>
+            <button id="dark-mode-toggle">Dark Mode</button>
+        </header>
+        <main>
+            <div class="translator">
+                <textarea id="input-text" placeholder="Write a text for translate..." rows="5"></textarea>
+                <p id="char-count">Characters: 0</p>
+                <div class="language-selection">
+                    <select id="source-lang"></select>
+                    <select id="target-lang"></select>
+                </div>
+                <button id="translate-button">Translate</button>
+                <textarea id="output-text" placeholder="Translation will appear here..." rows="5" readonly></textarea>
+                <button id="copy-output">Copy Translation</button>
+                <p id="status-message"></p>
+            </div>
+        </main>
+        <footer>
+            <p>️By PumkinTeam - @SirBNL</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
